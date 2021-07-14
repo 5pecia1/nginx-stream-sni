@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-LABEL maintainer="wubw@pku.edu.cn"
+LABEL maintainer="pdpxpd@gmail.com"
 
 RUN apt-get update && apt-get -y upgrade && \
     apt-get install -y wget libpcre3-dev build-essential libssl-dev zlib1g-dev && \
